@@ -22,6 +22,7 @@ df = pd.read_csv('pdata.csv',low_memory = False)
 df.columns
 
 app.css.append_css({'external_url': 'https://cdn.rawgit.com/plotly/dash-app-stylesheets/2d266c578d2a6e8850ebce48fdb52759b2aef506/stylesheet-oil-and-gas.css'})
+
 app.css.append_css({'external_url': 'https://raw.githubusercontent.com/shashanktmk007/MATCH_PREDICTION-/master/style.css'})
 res = df[df.id==0]
 
@@ -72,7 +73,7 @@ html.Div([html.H5('Curve'),html.H6('',id='player_Curve')] ),
 html.Div([html.H5('Dribbling'),html.H6('',id='player_Dribbling')] ), 
 html.Div([html.H5('Finishing'),html.H6('',id='player_Finishing')] ), 
 html.Div([html.H5('Free kick accuracy'),html.H6('',id='player_Freekickaccuracy')] )
-],className='two columns',style={'backgroundColor': 'GREEN'} ),
+],className='two columns',style={'borderColor:' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'} ),
 
     ],className = 'row',style={'margin': '#efed51'}),
 
