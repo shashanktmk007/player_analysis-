@@ -192,12 +192,12 @@ html.Div([html.H5('Standing ackle'),html.H6('',id='player_Standingtackle')] ),
 html.Div([html.H5('Strength'),html.H6('',id='player_Strength')] ), 
 html.Div([html.H5('Vision'),html.H6('',id='player_Vision')] ), 
 html.Div([html.H5('Volleys'),html.H6('',id='player_Volleys')] )
-]) ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'})
+ ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'})
 
 
 ],className = 'row',style={'margin': '#efed51'})
         
-        
+        ])
        
 @app.callback(Output('player_name','children'),[Input('p_name','value')])
 def name(pname):
