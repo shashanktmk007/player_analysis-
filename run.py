@@ -66,23 +66,19 @@ html.Div([html.H5('Long shots'),html.H6('',id='player_Longshots')] ),
 html.Div([html.H5('Marking'),html.H6('',id='player_Marking')] )
 ],className='two columns' ),
  html.Div([html.H5('  ')],className='one columns' ),
- html.Div([
-    html.Div([  html.Div([html.H5('Composure'),html.H6('',id='player_Composure')] ), 
+
+
+    html.Div([  
+html.Div([html.H5('Composure'),html.H6('',id='player_Composure')] ), 
 html.Div([html.H5('Crossing'),html.H6('',id='player_Crossing')] ), 
 html.Div([html.H5('Curve'),html.H6('',id='player_Curve')] ), 
 html.Div([html.H5('Dribbling'),html.H6('',id='player_Dribbling')] ), 
 html.Div([html.H5('Finishing'),html.H6('',id='player_Finishing')] ), 
 html.Div([html.H5('Free kick accuracy'),html.H6('',id='player_Freekickaccuracy')] )
-],className='two columns',style={'borderColor:' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'} ),
+],className='two columns',style={'borderColor':'#57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'})
 
-    ],className = 'row',style={'margin': '#efed51'}),
+],className = 'row',style={'margin': '#efed51'}),
 
-    
-    
-
-             
-           
-             ],className = 'row'),
 html.Div([  html.Div([html.H5('Special'),html.H6('',id='player_Special')] ), 
 html.Div([html.H5('Acceleration'),html.H6('',id='player_Acceleration')] ), 
 html.Div([html.H5('Aggression'),html.H6('',id='player_Aggression')] ), 
