@@ -134,24 +134,25 @@ app.layout = html.Div([
             value='-1'
         )
     ],className = 'row'),
+    html.Br(),html.Br(),
     html.Div([
         html.H1('   ',id = 'player_name')
-    ],className = 'row'),
+    ],className = 'row'),html.Br(),html.Br(),
           html.Div([  
          ],className = 'row'),
         html.Div([html.Div([html.H5('Age  '),html.H6('',id='player_Age')],className='four columns'),
         html.Div([html.H5('Nationality  '),html.H6('',id='player_Nationality')],className='four columns'),
-        html.Div([html.H5('Club  '),html.H6('',id='player_Club')],className='four columns')],className = 'row'),
+        html.Div([html.H5('Club  '),html.H6('',id='player_Club')],className='four columns')],className = 'row'),html.Br(),
     html.Div([  
          ],className = 'row'),
         html.Div([html.Div([html.H5('Overall'),html.H6('',id='player_Overall')],className='four columns'),
         html.Div([html.H5('Potential'),html.H6('',id='player_Potential')],className='four columns'),
-        html.Div([html.H5('Value'),html.H6('',id='player_Value')],className='four columns')],className = 'row'),
+        html.Div([html.H5('Value'),html.H6('',id='player_Value')],className='four columns')],className = 'row'),html.Br(),
      html.Div([
          html.Div([ html.H5('Wage'), html.H5('   ',id = 'player_Wage')],className='four columns'),
          html.Div([ html.H5('Preferred Positions'), html.H5('   ',id = 'player_PreferredPositions')],className='four columns'),
         # html.Div([ html.H1('Wage'), html.H1('   ',id = 'player_Wage')],className='four columns'),
-    ],className = 'row'),     
+    ],className = 'row'), html.Br(),    
 html.Div([
 
  html.Div([
