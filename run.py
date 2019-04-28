@@ -22,7 +22,7 @@ df = pd.read_csv('pdata.csv',low_memory = False)
 df.columns
 
 app.css.append_css({'external_url': 'https://cdn.rawgit.com/plotly/dash-app-stylesheets/2d266c578d2a6e8850ebce48fdb52759b2aef506/stylesheet-oil-and-gas.css'})
-app.css.append_css({'external_url': https://raw.githubusercontent.com/shashanktmk007/MATCH_PREDICTION-/master/style.css'})
+app.css.append_css({'external_url': 'https://raw.githubusercontent.com/shashanktmk007/MATCH_PREDICTION-/master/style.css'})
 res = df[df.id==0]
 
 app.layout = html.Div([
