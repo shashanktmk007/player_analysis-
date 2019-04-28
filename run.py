@@ -152,9 +152,7 @@ app.layout = html.Div([
          html.Div([ html.H5('Preferred Positions'), html.H5('   ',id = 'player_PreferredPositions')],className='four columns'),
         # html.Div([ html.H1('Wage'), html.H1('   ',id = 'player_Wage')],className='four columns'),
     ],className = 'row'),     
-
-  
-    html.Div([
+html.Div([
 
  html.Div([
         html.Div([html.H5('Heading accuracy'),html.H6('',id='player_Headingaccuracy')] ), 
@@ -163,7 +161,7 @@ html.Div([html.H5('Jumping'),html.H6('',id='player_Jumping')] ),
 html.Div([html.H5('Long passing'),html.H6('',id='player_Longpassing')] ), 
 html.Div([html.H5('Long shots'),html.H6('',id='player_Longshots')] ), 
 html.Div([html.H5('Marking'),html.H6('',id='player_Marking')] )
-],className='two columns' ),
+],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'} ),
     html.Div([  
 html.Div([html.H5('Composure'),html.H6('',id='player_Composure')] ), 
 html.Div([html.H5('Crossing'),html.H6('',id='player_Crossing')] ), 
@@ -173,7 +171,7 @@ html.Div([html.H5('Finishing'),html.H6('',id='player_Finishing')] ),
 html.Div([html.H5('Free kick accuracy'),html.H6('',id='player_Freekickaccuracy')] )
 ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'}),
 
-html.Div([
+
 html.Div([  html.Div([html.H5('Special'),html.H6('',id='player_Special')] ), 
 html.Div([html.H5('Acceleration'),html.H6('',id='player_Acceleration')] ), 
 html.Div([html.H5('Aggression'),html.H6('',id='player_Aggression')] ), 
@@ -187,7 +185,8 @@ html.Div([html.H5('Reactions'),html.H6('',id='player_Reactions')] ),
 html.Div([html.H5('Short passing'),html.H6('',id='player_Shortpassing')] ), 
 html.Div([html.H5('Shot power'),html.H6('',id='player_Shotpower')] ), 
 html.Div([html.H5('Sliding tackle'),html.H6('',id='player_Slidingtackle')] )  ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'}),
-html.Div([  html.Div([html.H5('Sprint peed'),html.H6('',id='player_Sprintspeed')] ), 
+html.Div([
+html.Div([html.H5('Sprint peed'),html.H6('',id='player_Sprintspeed')] ),
 html.Div([html.H5('Stamina'),html.H6('',id='player_Stamina')] ), 
 html.Div([html.H5('Standing ackle'),html.H6('',id='player_Standingtackle')] ), 
 html.Div([html.H5('Strength'),html.H6('',id='player_Strength')] ), 
@@ -197,8 +196,6 @@ html.Div([html.H5('Volleys'),html.H6('',id='player_Volleys')] )
 
 
 ],className = 'row',style={'margin': '#efed51'})
-    ])
-
         
         
        
