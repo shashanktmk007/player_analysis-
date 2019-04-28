@@ -35,80 +35,83 @@ app.layout = html.Div([
             value='-1'
         )
     ],className = 'row'),
+    html.Br(),
+    html.Br(),
     html.Div([
         html.H1('   ',id = 'player_name')
     ],className = 'row'),
-          html.Div([  
+    html.Br(),
+          html.Div([
          ],className = 'row'),
         html.Div([html.Div([html.H5('Age  '),html.H6('',id='player_Age')],className='four columns'),
         html.Div([html.H5('Nationality  '),html.H6('',id='player_Nationality')],className='four columns'),
         html.Div([html.H5('Club  '),html.H6('',id='player_Club')],className='four columns')],className = 'row'),
-    html.Div([  
+    html.Br(),
+    html.Div([
          ],className = 'row'),
         html.Div([html.Div([html.H5('Overall'),html.H6('',id='player_Overall')],className='four columns'),
         html.Div([html.H5('Potential'),html.H6('',id='player_Potential')],className='four columns'),
         html.Div([html.H5('Value'),html.H6('',id='player_Value')],className='four columns')],className = 'row'),
+    html.Br(),
      html.Div([
          html.Div([ html.H5('Wage'), html.H5('   ',id = 'player_Wage')],className='four columns'),
          html.Div([ html.H5('Preferred Positions'), html.H5('   ',id = 'player_PreferredPositions')],className='four columns'),
         # html.Div([ html.H1('Wage'), html.H1('   ',id = 'player_Wage')],className='four columns'),
-    ],className = 'row'),     
-
-  
-    html.Div([
-
- html.Div([
-        html.Div([html.H5('Heading accuracy'),html.H6('',id='player_Headingaccuracy')] ), 
-html.Div([html.H5('Interceptions'),html.H6('',id='player_Interceptions')] ), 
-html.Div([html.H5('Jumping'),html.H6('',id='player_Jumping')] ), 
-html.Div([html.H5('Long passing'),html.H6('',id='player_Longpassing')] ), 
-html.Div([html.H5('Long shots'),html.H6('',id='player_Longshots')] ), 
-html.Div([html.H5('Marking'),html.H6('',id='player_Marking')] )
-],className='two columns' ),
- html.Div([html.H5('  ')],className='one columns' ),
-
-
-    html.Div([  
-html.Div([html.H5('Composure'),html.H6('',id='player_Composure')] ), 
-html.Div([html.H5('Crossing'),html.H6('',id='player_Crossing')] ), 
-html.Div([html.H5('Curve'),html.H6('',id='player_Curve')] ), 
-html.Div([html.H5('Dribbling'),html.H6('',id='player_Dribbling')] ), 
-html.Div([html.H5('Finishing'),html.H6('',id='player_Finishing')] ), 
-html.Div([html.H5('Free kick accuracy'),html.H6('',id='player_Freekickaccuracy')] )
-],className='two columns',style={'borderColor':'#57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'})
-
-],className = 'row',style={'margin': '#efed51'}),
-
-html.Div([  html.Div([html.H5('Special'),html.H6('',id='player_Special')] ), 
-html.Div([html.H5('Acceleration'),html.H6('',id='player_Acceleration')] ), 
-html.Div([html.H5('Aggression'),html.H6('',id='player_Aggression')] ), 
-html.Div([html.H5('Agility'),html.H6('',id='player_Agility')] ), 
-html.Div([html.H5('Balance'),html.H6('',id='player_Balance')] ), 
-html.Div([html.H5('Ball control'),html.H6('',id='player_Ballcontrol')] )
-             
-             ],className = 'row'),
-    
-    
-    html.Div([
-        html.Div([html.H5('Penalties'),html.H6('',id='player_Penalties')] ), 
-html.Div([html.H5('Positioning'),html.H6('',id='player_Positioning')] ), 
-html.Div([html.H5('Reactions'),html.H6('',id='player_Reactions')] ), 
-html.Div([html.H5('Short passing'),html.H6('',id='player_Shortpassing')] ), 
-html.Div([html.H5('Shot power'),html.H6('',id='player_Shotpower')] ), 
-html.Div([html.H5('Sliding tackle'),html.H6('',id='player_Slidingtackle')] )
-        
     ],className = 'row'),
-    
-    
+
+
     html.Div([
-        html.Div([html.H5('Sprint peed'),html.H6('',id='player_Sprintspeed')] ), 
-html.Div([html.H5('Stamina'),html.H6('',id='player_Stamina')] ), 
-html.Div([html.H5('Standing ackle'),html.H6('',id='player_Standingtackle')] ), 
-html.Div([html.H5('Strength'),html.H6('',id='player_Strength')] ), 
-html.Div([html.H5('Vision'),html.H6('',id='player_Vision')] ), 
-html.Div([html.H5('Volleys'),html.H6('',id='player_Volleys')] )
-    ],className = 'row')
+
+        html.Div([
+            html.Div([html.H5('Heading accuracy'),html.H6('',id='player_Headingaccuracy')] ),
+            html.Div([html.H5('Interceptions'),html.H6('',id='player_Interceptions')] ),
+            html.Div([html.H5('Jumping'),html.H6('',id='player_Jumping')] ),
+            html.Div([html.H5('Long passing'),html.H6('',id='player_Longpassing')] ),
+            html.Div([html.H5('Long shots'),html.H6('',id='player_Longshots')] ),
+            html.Div([html.H5('Marking'),html.H6('',id='player_Marking')] )
+            ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'} ),
+        html.Div([
+            html.Div([html.H5('Composure'),html.H6('',id='player_Composure')] ),
+            html.Div([html.H5('Crossing'),html.H6('',id='player_Crossing')] ),
+            html.Div([html.H5('Curve'),html.H6('',id='player_Curve')] ),
+            html.Div([html.H5('Dribbling'),html.H6('',id='player_Dribbling')] ),
+            html.Div([html.H5('Finishing'),html.H6('',id='player_Finishing')] ),
+            html.Div([html.H5('Free kick accuracy'),html.H6('',id='player_Freekickaccuracy')] )
+            ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'}),
+
+        html.Div([
+                html.Div([html.H5('Special'),html.H6('',id='player_Special')]),
+                html.Div([html.H5('Acceleration'),html.H6('',id='player_Acceleration')] ),
+                html.Div([html.H5('Aggression'),html.H6('',id='player_Aggression')] ),
+                html.Div([html.H5('Agility'),html.H6('',id='player_Agility')] ),
+                html.Div([html.H5('Balance'),html.H6('',id='player_Balance')] ),
+                html.Div([html.H5('Ball control'),html.H6('',id='player_Ballcontrol')]
+                         )]
+                         ,className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'}),
+
+         html.Div([
+                html.Div([html.H5('Penalties'),html.H6('',id='player_Penalties')] ),
+                html.Div([html.H5('Positioning'),html.H6('',id='player_Positioning')] ),
+                html.Div([html.H5('Reactions'),html.H6('',id='player_Reactions')] ),
+                html.Div([html.H5('Short passing'),html.H6('',id='player_Shortpassing')] ),
+                html.Div([html.H5('Shot power'),html.H6('',id='player_Shotpower')] ),
+                html.Div([html.H5('Sliding tackle'),html.H6('',id='player_Slidingtackle')] )
+          ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'}),
+         html.Div([
+                html.Div([html.H5('Sprint peed'),html.H6('',id='player_Sprintspeed')] ),
+                html.Div([html.H5('Stamina'),html.H6('',id='player_Stamina')] ),
+                html.Div([html.H5('Standing ackle'),html.H6('',id='player_Standingtackle')] ),
+                html.Div([html.H5('Strength'),html.H6('',id='player_Strength')] ),
+                html.Div([html.H5('Vision'),html.H6('',id='player_Vision')] ),
+                html.Div([html.H5('Volleys'),html.H6('',id='player_Volleys')] )
+        ],className='two columns',style={'borderColor':' #57c5f7','borderWidth': 'medium','borderStyle': 'solid','borderRadius': '3.5%','backgroundColor': '#b0b0b05c','padding':'3%','textAlign': 'center','color': 'black'})
+
+
+],className = 'row',style={'margin': '#efed51'})
 ])
+
+
+
 @app.callback(Output('player_name','children'),[Input('p_name','value')])
 def name(pname):
     p_id = int(pname)
